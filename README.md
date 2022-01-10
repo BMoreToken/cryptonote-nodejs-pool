@@ -1,4 +1,4 @@
-BALTx Instructions cryptonote-nodejs-pool
+BALTx Instructions
 ======================
 * Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
 * cd ~
@@ -12,6 +12,10 @@ BALTx Instructions cryptonote-nodejs-pool
 * sudo apt-get install libsodium-dev
 * sudo adduser --disabled-password --disabled-login pool
 * sudo su - pool
+* git clone https://github.com/BMoreToken/cryptonote-nodejs-pool.git pool
+* cd pool
+* npm update
+
 
 cryptonote-nodejs-pool
 ======================
