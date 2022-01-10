@@ -1,3 +1,18 @@
+BALTx Instructions cryptonote-nodejs-pool
+======================
+* Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
+* cd ~
+* curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
+* sudo apt-get install -y nodejs
+* sudo add-apt-repository ppa:chris-lea/redis-server
+* sudo apt-get update
+* sudo apt-get install redis-server
+* sudo apt-get install libssl-dev
+* sudo apt-get install libboost-all-dev
+* sudo apt-get install libsodium-dev
+* sudo adduser --disabled-password --disabled-login pool
+* sudo su - pool
+
 cryptonote-nodejs-pool
 ======================
 
@@ -154,7 +169,7 @@ sudo su - your-user
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/dvandal/cryptonote-nodejs-pool.git pool
+git clone https://github.com/BMoreToken/cryptonote-nodejs-pool.git pool
 cd pool
 
 npm update
