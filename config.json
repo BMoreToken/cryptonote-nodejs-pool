@@ -115,7 +115,7 @@
 		"maxAddresses": 50,
 		"mixin": 0,
 		"priority": 0,
-		"transferFee": 1,
+		"transferFee": 1000,
 		"dynamicTransferFee": true,
 		"minerPayFee": true,
 		"minPayment": 50000,
