@@ -3,8 +3,8 @@
 
 	"coin": "BMoreCoin",
 	"symbol": "BALTx",
-	"coinUnits": 10000,
-	"coinDecimalPlaces": 4,
+	"coinUnits": 100000000,
+	"coinDecimalPlaces": 8,
 	"coinDifficultyTarget": 120,
 	"blockchainExplorer": "http://pool.bmorecoin.com/block/{id}",
 	"transactionExplorer": "http://pool.bmorecoin.com/tx/{id}",
@@ -29,8 +29,8 @@
 		"enabled": true,
 		"mergedMining": false,
 		"clusterForks": "auto",
-		"poolAddress": "** Your pool wallet address **",
-		"intAddressPrefix": 249588424,
+		"poolAddress": "bxcJfs8spa2NzxUcHZTBnkLz5MNhPNZS3P3oywrDRN2PDDoWEWZNX2Y2hSy2QQCb3iLQmdPoM5cvM2WC1vTDnF5J26ZE8TkZc",
+		"intAddressPrefix": 209,
 		"blockRefreshInterval": 1000,
 		"minerTimeout": 300,
 		"sslCert": "./cert.pem",
@@ -152,7 +152,7 @@
 
 	"daemon": {
 		"host": "127.0.0.1",
-		"port": 2086
+		"port": 19326
 	},
 
 	"wallet": {
@@ -203,8 +203,8 @@
 	},
 
 	"email": {
-		"enabled": false,
-		"fromAddress": "your@email.com",
+		"enabled": true,
+		"fromAddress": "pool@bmorecoin.com",
 		"transport": "sendmail",
 		"sendmail": {
 			"path": "/usr/sbin/sendmail"
