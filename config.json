@@ -111,7 +111,7 @@
 
 	"payments": {
 		"enabled": true,
-		"interval": 900,
+		"interval": 300,
 		"maxAddresses": 50,
 		"mixin": 0,
 		"priority": 0,
