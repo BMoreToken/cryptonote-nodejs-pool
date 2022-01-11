@@ -12,7 +12,7 @@ BALTx Instructions
 * sudo apt-get install libboost-all-dev
 * sudo apt-get install libsodium-dev
 * sudo apt-get install nmap apache2
-
+* npm install dateformat@4.6.0
 
 * sudo adduser --disabled-password --disabled-login pool
 * sudo su - pool
