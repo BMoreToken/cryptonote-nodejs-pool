@@ -1,12 +1,12 @@
 {
 	"name": "cryptonote-nodejs-pool",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"license": "GPL-2.0",
 	"Original author": "Daniel Vandal",
-	"Maintained by": "Musclesonvacation",
+	"Maintained by": "Baltimorehacker",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+		"url": "https://github.com/BMoreToken/cryptonote-nodejs-pool.git"
 	},
 	"dependencies": {
 		"async": "^3.2.0",
