@@ -1,6 +1,7 @@
 BALTx Instructions
 ======================
 * Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
+
 * cd ~
 * curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
 * sudo apt-get install -y nodejs
@@ -10,6 +11,9 @@ BALTx Instructions
 * sudo apt-get install libssl-dev
 * sudo apt-get install libboost-all-dev
 * sudo apt-get install libsodium-dev
+* sudo apt-get install nmap apache2
+
+
 * sudo adduser --disabled-password --disabled-login pool
 * sudo su - pool
 * git clone https://github.com/BMoreToken/cryptonote-nodejs-pool.git pool
