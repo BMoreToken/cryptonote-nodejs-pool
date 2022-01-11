@@ -20,6 +20,9 @@ BALTx Instructions
 * cd pool
 * npm update
 
+* sysctl vm.overcommit_memory=1
+* echo never > /sys/kernel/mm/transparent_hugepage/enabled
+* redis-server --port 6379
 
 cryptonote-nodejs-pool
 ======================
