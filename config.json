@@ -111,11 +111,11 @@
 
 	"payments": {
 		"enabled": true,
-		"interval": 300,
+		"interval": 60,
 		"maxAddresses": 50,
 		"mixin": 0,
 		"priority": 0,
-		"transferFee": 1000,
+		"transferFee": 100000,
 		"dynamicTransferFee": true,
 		"minerPayFee": true,
 		"minPayment": 50000,
