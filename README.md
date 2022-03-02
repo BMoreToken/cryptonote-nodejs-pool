@@ -59,7 +59,8 @@ container-password = password
 * su pool
 * START: screen -S pool
 * START: cd ~/pool
-* ONE TIME: update address ( from above ) in config.json
+* ONE TIME: update config.json with address ( from above ), "poolHost" to match webserver
+* ONE TIME: update website_example/config.js
 * START: node init.js
 * DISCONNECT: ctrl-a ctrl-d
 * RECONNECT screen -x pool
