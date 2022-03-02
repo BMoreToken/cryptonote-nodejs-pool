@@ -1,4 +1,10 @@
-New BALTx Pool Instructions
+Current BALTx Pools
+======================
+* https://pool.bmorecoin.com
+* http://ondelay.ddns.net
+
+
+BALTx Pool Instructions
 ======================
 * Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
 * cd ~
@@ -59,11 +65,20 @@ container-password = password
 * RECONNECT screen -x pool
 * STOP: ctrl-c
 
-### apache2
+### apache2 ( one time )
 * nano /etc/apache2/sites-enabled/000-default.conf
 * OLD:  DocumentRoot /var/www/html
 * NEW:  DocumentRoot /home/pool/pool/website_example
+* NEW: <pre>
+&lt;Directory /&gt;
+    Options Indexes FollowSymLinks Includes ExecCGI
+    AllowOverride All
+    Require all granted
+    Allow from all
+&lt;/Directory&gt;
+</pre>
 * sudo service apache2 restart
+
 
 
 
