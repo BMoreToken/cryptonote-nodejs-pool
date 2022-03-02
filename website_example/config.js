@@ -1,11 +1,11 @@
-var parentCoin = "COIN";
+var parentCoin = "BALTx";
+// 8117
+var api = "https://pool.bmorecoin.com/api/";
+var poolHost = "pool.bmorecoin.com";
 
-var api = "http://poolhost:8117";
-var poolHost = "poolhost.com";
-
-var email = "support@poolhost.com";
-var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
+var email = "project@bmoretoken.com";
+var telegram = "https://t.me/+tCpLTHD_Nus2MDFh";
+var discord = "https://discord.gg/pJNGdG6UZx";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
