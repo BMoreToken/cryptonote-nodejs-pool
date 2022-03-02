@@ -4,7 +4,7 @@ Current BALTx Pools
 * http://ondelay.ddns.net
 
 
-BALTx Pool Instructions
+BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 ======================
 * Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
 * cd ~
@@ -59,8 +59,8 @@ container-password = password
 * su pool
 * START: screen -S pool
 * START: cd ~/pool
-* ONE TIME: update config.json with address ( from above ), "poolHost" to match webserver
-* ONE TIME: update website_example/config.js
+* ONE TIME: update config.json with pool wallet address ( from above ), poolHost to match webserver
+* ONE TIME: update website_example/config.js set api & poolHost
 * START: node init.js
 * DISCONNECT: ctrl-a ctrl-d
 * RECONNECT screen -x pool
@@ -78,10 +78,16 @@ container-password = password
     Allow from all
 &lt;/Directory&gt;
 </pre>
+* sudo snap install core; sudo snap refresh core
+* sudo snap install --classic certbot
+* sudo ln -s /snap/bin/certbot /usr/bin/certbot
+* sudo nano /etc/apache2/sites-enabled/000-default-le-ssl.conf
+* ADD: ( match to your hostname )
+<pre>
+ProxyPass /api/ http://pool.bmorecoin.com:8117/
+ProxyPassReverse /api/ http://pool.bmorecoin.com:8117/
+</pre>
 * sudo service apache2 restart
-
-
-
 
 Credits
 ---------
