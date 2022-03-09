@@ -40,7 +40,7 @@ BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 * Check ports: lsof -i -P -n | grep LISTEN
 
 ### bmorecoind
-* EDIT ~/bmorecoin.conf ( make sure it matches walletd below )
+* nano ~/bmorecoin.conf ( make sure it matches walletd below )
 <pre>
 container-file = mycontainer
 container-password = password
