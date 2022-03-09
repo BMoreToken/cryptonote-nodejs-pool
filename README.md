@@ -85,6 +85,7 @@ container-password = password
 * sudo snap install core; sudo snap refresh core
 * sudo snap install --classic certbot
 * sudo ln -s /snap/bin/certbot /usr/bin/certbot
+* sudo certbot --apache
 * sudo nano /etc/apache2/sites-enabled/000-default-le-ssl.conf
 * ADD: ( match to your hostname )
 <pre>
