@@ -1,12 +1,15 @@
 Current BALTx Pools
 ======================
-* https://pool.bmorecoin.com
+* https://pool.bmorecoin.com (cloud hopping today)
 * http://ondelay.ddns.net
 
 
 BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 ======================
-* Install bmorecoind https://medium.com/bmoretoken/just-released-a-cpu-mineable-coin-bmorecoin-1aa4e2c17303
+* cd ~
+* git clone https://github.com/BMoreToken/bmorecoin
+* cd bmorecoin
+* make
 * cd ~
 * curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
 * sudo apt-get install -y nodejs
