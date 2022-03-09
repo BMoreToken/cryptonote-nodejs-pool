@@ -6,6 +6,7 @@ Current BALTx Pools
 
 BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 ======================
+* apt-get install -y libboost-all-dev g++ gcc cmake wget libbz2-dev
 * cd ~
 * git clone https://github.com/BMoreToken/bmorecoin
 * cd bmorecoin
