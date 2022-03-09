@@ -87,7 +87,7 @@ container-password = password
 * sudo ln -s /snap/bin/certbot /usr/bin/certbot
 * sudo certbot --apache
 * sudo nano /etc/apache2/sites-enabled/000-default-le-ssl.conf
-* ADD: ( match to your hostname )
+* ADD: ( match to your hostname, right before /VirtualHost )
 <pre>
 ProxyPass /api/ http://pool.bmorecoin.com:8117/
 ProxyPassReverse /api/ http://pool.bmorecoin.com:8117/
