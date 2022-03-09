@@ -6,6 +6,11 @@ Current BALTx Pools
 
 BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 ======================
+* $5 Digital Ocean "Out of Memory": fallocate -l 1G /swapfile
+* $5 Digital Ocean "Out of Memory": chmod 600 /swapfile
+* $5 Digital Ocean "Out of Memory": mkswap /swapfile
+* $5 Digital Ocean "Out of Memory": swapon /swapfile
+* $5 Digital Ocean "Out of Memory": echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 * apt-get install -y libboost-all-dev g++ gcc cmake wget libbz2-dev
 * cd ~
 * git clone https://github.com/BMoreToken/bmorecoin
@@ -108,3 +113,8 @@ License
 Released under the GNU General Public License v2
 
 http://www.gnu.org/licenses/gpl-2.0.html
+
+Digital Ocean
+--------------
+
+https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-18-04
