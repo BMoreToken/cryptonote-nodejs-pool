@@ -73,7 +73,7 @@ container-password = password
 * nano /etc/apache2/sites-enabled/000-default.conf
 * OLD:  DocumentRoot /var/www/html
 * NEW:  DocumentRoot /home/pool/pool/website_example
-* NEW: <pre>
+<pre>
 &lt;Directory /&gt;
     Options Indexes FollowSymLinks Includes ExecCGI
     AllowOverride All
@@ -81,6 +81,7 @@ container-password = password
     Allow from all
 &lt;/Directory&gt;
 </pre>
+
 * sudo snap install core; sudo snap refresh core
 * sudo snap install --classic certbot
 * sudo ln -s /snap/bin/certbot /usr/bin/certbot
