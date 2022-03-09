@@ -37,12 +37,7 @@ BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 
 
 ## Starting - Stopping - Sync - Resync
-* lsof -i -P -n | grep LISTEN
-
-### redis server
-* START: screen -S redis
-* START: redis-server --port 6379
-* STOP: ctrl-c
+* Check ports: lsof -i -P -n | grep LISTEN
 
 ### bmorecoind
 * EDIT ~/bmorecoin.conf ( make sure it matches walletd below )
