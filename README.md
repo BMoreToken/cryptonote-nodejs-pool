@@ -23,7 +23,6 @@ BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 * sudo apt-get update
 * sudo apt-get install -y redis-server
 * sudo apt-get install -y libssl-dev
-* sudo apt-get install -y libboost-all-dev
 * sudo apt-get install -y libsodium-dev
 * sudo apt-get install -y nmap apache2
 * npm install dateformat@4.6.0
