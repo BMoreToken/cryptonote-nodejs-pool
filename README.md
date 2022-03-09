@@ -21,11 +21,11 @@ BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 * sudo apt-get install -y nodejs
 * sudo add-apt-repository ppa:chris-lea/redis-server
 * sudo apt-get update
-* sudo apt-get install redis-server
-* sudo apt-get install libssl-dev
-* sudo apt-get install libboost-all-dev
-* sudo apt-get install libsodium-dev
-* sudo apt-get install nmap apache2
+* sudo apt-get install -y redis-server
+* sudo apt-get install -y libssl-dev
+* sudo apt-get install -y libboost-all-dev
+* sudo apt-get install -y libsodium-dev
+* sudo apt-get install -y nmap apache2
 * npm install dateformat@4.6.0
 * npm i redis@3.1.2
 * sudo adduser --disabled-password --disabled-login pool
