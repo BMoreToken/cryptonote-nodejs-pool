@@ -100,7 +100,7 @@ ProxyPassReverse /api/ http://pool.bmorecoin.com:8117/
 
 Credits
 ---------
-* [insidenothing](//github.com/insidenothing) - Developper of BMoreCoin & BMoreToken
+* [insidenothing](//github.com/insidenothing) - Developer of BMoreCoin & BMoreToken
 * [fancoder](//github.com/fancoder) - Developper on cryptonote-universal-pool project from which current project is forked.
 * [dvandal](//github.com/dvandal) - Developer of cryptonote-nodejs-pool software
 
