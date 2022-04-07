@@ -1,8 +1,8 @@
 Current BALTx Pools
 ======================
-* https://pool.bmorecoin.com (cloud hopping today)
-* http://ondelay.ddns.net
-
+* https://pool.bmorecoin.com ( US-EAST )
+* http://ondelay.ddns.net ( US-WEST )
+* http://157.230.249.94/ ( Singapore )
 
 BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 ======================
