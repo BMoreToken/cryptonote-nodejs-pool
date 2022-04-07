@@ -17,14 +17,13 @@ BALTx Pool Instructions ( Use UBUNTU 18.04 LTR )
 * cd bmorecoin
 * make
 * cd ~
-* curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
 * sudo apt-get install -y nodejs
 * sudo add-apt-repository ppa:chris-lea/redis-server
 * sudo apt-get update
 * sudo apt-get install -y redis-server
 * sudo apt-get install -y libssl-dev
 * sudo apt-get install -y libsodium-dev
-* sudo apt-get install -y nmap apache2
+* sudo apt-get install -y nmap apache2 npm
 * npm install dateformat@4.6.0
 * npm i redis@3.1.2
 * sudo adduser --disabled-password --disabled-login pool
@@ -97,6 +96,9 @@ ProxyPassReverse /api/ http://pool.bmorecoin.com:8117/
 * sudo a2enmod proxy_balancer
 * sudo a2enmod lbmethod_byrequests
 * sudo systemctl restart apache2
+
+Old Commands
+* curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
 
 Credits
 ---------
